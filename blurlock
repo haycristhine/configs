@@ -1,0 +1,3 @@
+scrot /tmp/screensaver.png
+convert /tmp/screensaver.png -blur 0x5 /tmp/screensaver_blur.png
+i3lock -i /tmp/screensaver_blur.png
